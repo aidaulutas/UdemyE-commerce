@@ -1,0 +1,17 @@
+﻿@model Category  // category model ile calısacagım  // post  işlemleri form içinde yapılır , form etiketin içeriside metod belieleyeceksin, işlem de 
+<form method="post">
+
+    <h2>Add Category</h2>
+    <div class="row">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control"/>
+    </div>
+    <div class="row my-2">
+        <div class="col-6"><button type="submit" class="btn btn-primary">
+            Save
+        </button></div>
+        <div class="col-6"><a asp-controller="Category" asp-action="Index" class="btn btn-primary">Back To Main Page</a></div>
+
+ </div>
+</form>
+

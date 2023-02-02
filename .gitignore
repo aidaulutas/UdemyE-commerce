@@ -1,0 +1,13 @@
+
+UdemySiparis/bin
+UdemySiparis/obj
+UdemySiparis.Data/bin
+UdemySiparis.Data/obj
+UdemySiparis.Models/bin
+UdemySiparis.Models/obj
+UdemySiparisMVC.SharedTools/bin
+UdemySiparisMVC.SharedTools/obj
+.idea
+.vs
+git rm -r --cached bin
+
